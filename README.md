@@ -4,7 +4,7 @@
 
 ## Create Rails App (postgresql as database)
 
-- rails new blog -d postgresql
+- raißls new blog -d postgresql
 
 ## Start postgre
 
@@ -82,4 +82,20 @@ Migrate db
 - add "Article.new"
 - this is to avoid nulls
 
-_https://guides.rubyonrails.org/getting_started.html_
+## Updating Articles
+
+- Create edit action
+- Create update action
+- Create view for edit action
+- use form_with(model: @article ...
+
+## Using partials to clean up duplication in views
+
+- create \_form.html.erb
+- in partials it is by convention to be prefixed by an underscore(\_)
+
+## Deleting articles
+
+- Create destroy action
+- Add link*to delete with option of method: :delete, data" {confirm: 'Are you sure?"}
+  *https://guides.rubyonrails.org/getting_started.html*
