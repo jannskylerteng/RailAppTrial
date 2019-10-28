@@ -97,5 +97,30 @@ Migrate db
 ## Deleting articles
 
 - Create destroy action
-- Add link*to delete with option of method: :delete, data" {confirm: 'Are you sure?"}
-  *https://guides.rubyonrails.org/getting_started.html*
+- Add link to delete with option of method: :delete, data" {confirm: 'Are you sure?"}
+
+## Adding a second model
+
+## Generating a Model
+
+## Associating Models
+
+## Refactoring
+
+## Rendering Partial Collections
+
+## Rendering a Partial Form
+
+## Deleting Comments
+
+## Deleteing Associated Objects
+
+- has_many :comments, dependent: :destroy
+
+## Security
+
+## Basic Authentication
+
+- http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
+
+_https://guides.rubyonrails.org/getting_started.html_
