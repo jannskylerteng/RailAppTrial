@@ -4,7 +4,7 @@
 
 ## Create Rails App (postgresql as database)
 
-- raißls new blog -d postgresql
+- rails new blog -d postgresql
 
 ## Start postgre
 
