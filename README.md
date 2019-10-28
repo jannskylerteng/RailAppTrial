@@ -103,7 +103,21 @@ Migrate db
 
 ## Generating a Model
 
+- \$ rails generate model Comment commenter:string body:text article:references
+- belongs_to :article
+- rails db:migrate
+
 ## Associating Models
+
+- has_many :comments
+
+## Adding a Route for Comments
+
+- resources :articles do resources :comments end
+
+## Generating a Controller
+
+- rails generate controller Comments
 
 ## Refactoring
 
